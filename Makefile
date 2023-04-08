@@ -12,7 +12,7 @@ INCS += -I${LOCALINC} -I${X11INC} -I${FREETYPEINC} -I${X11INC}/freetype2
 LIBS += -L${LOCALLIB} -L${X11LIB} -lm -lfontconfig -lXft -lX11 -lXinerama -lXrender -lXext -lImlib2
 
 # files
-PROG = pmenu
+PROG = cosmo_menu
 SRCS = ${PROG}.c
 OBJS = ${SRCS:.c=.o}
 
